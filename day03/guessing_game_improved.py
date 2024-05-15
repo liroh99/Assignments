@@ -15,7 +15,7 @@ def main():
     global computer_number, guess_count, finish_state
     init()
     finish_state = False
-    while finish_state == False:
+    while not finish_state:
         user_decision = user_input()
         if user_decision.isnumeric():
             guess = int(user_decision)
