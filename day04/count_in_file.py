@@ -8,7 +8,7 @@ def main():
     filename = sys.argv[1]
 
     with open(filename, "r") as fh:
-    text = fh.read()
+        text = fh.read()
     words_in_text = text.split()
     print(f"The number of words in the file is {len(words_in_text)}")
 
