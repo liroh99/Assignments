@@ -1,0 +1,2 @@
+My code reads a qPCR csv file, takes the Ct number (which is the number of cycles that the machine ran) and converts it into gene expression. 
+The code shows the sample name, the target gene, the ct mean and the correlated gene expression. 
