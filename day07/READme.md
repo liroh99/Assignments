@@ -1,0 +1,1 @@
+I wrote a file called data_from_ncbi which asks the user for a certain gene and max number of queries and brings back queries from ncbi, downloades them as a fasta file, and adds the metadata to a file called search_data which includes the date, gene, amount of queries and total queries found in ncbi.  
